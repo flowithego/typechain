@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {  
+        "module": "commonjs",
+        "target": "ES2015",
+        "sourceMap": true,
+        "outDir": "dist"  // ts로 부터 컴파일 생성되는 js 파일들을 모두 dist 디렉토리로 옮겨라
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
